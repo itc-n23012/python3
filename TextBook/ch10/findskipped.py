@@ -15,7 +15,7 @@ def find_and_fix_gaps(prefix, directory, start=None, end=None):
         open(os.path.join(directory, missing_filename), 'w').close()
 
 prefix = 'spam'
-directory = '/path/to/directory'
+directory = '/python3/TextBook/ch10'
 start = 50
 end = 70
 find_and_fix_gaps(prefix, directory, start, end)
