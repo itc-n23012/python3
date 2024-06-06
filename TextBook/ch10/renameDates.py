@@ -1,7 +1,5 @@
 import shutil, os, re
 
-import shutil, os, re
-
 date_pattern = re.compile(r"""^(.*?)
         ((0|1)?\d)-
         ((0|1|2|3)?\d)-
